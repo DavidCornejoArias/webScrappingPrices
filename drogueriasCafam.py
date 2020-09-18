@@ -136,7 +136,7 @@ df['Farmacia']= ['Drogueria Cafam' for i in range(len(listOfPrices))]
 df['oldPrices']= listOfOldPrices
 df['Country']= ['Colombia' for i in range(len(listOfPrices))]
 df['Farmacias del Producto']= listOfFarmacias
-df.to_csv(r'C:\Users\david\Documents\DNM\webscrapping\drogueriaCafam2.csv',encoding='utf-8')
+df.to_csv(r'drogueriaCafam2.csv',encoding='utf-8')
 
 
 
