@@ -28,7 +28,7 @@ listOfOldPrices = []
 
 
 # Estableciendo los parámetros
-path = r'C:\Users\david\Documents\DNM\webscrapping'
+path = r''
 os.chdir(path)
 
 #---------------------------------------------------------------
@@ -148,4 +148,4 @@ df['moneda']= ['Bolivares' for i in range(len(listOfPrices))]
 df['Farmacia']= ['FarmaCorp' for i in range(len(listOfPrices))]
 df['oldPrices']= listOfOldPrices
 df['Country']= ['Bolivia' for i in range(len(listOfPrices))]
-df.to_csv(r'C:\Users\david\Documents\DNM\webscrapping\farmaCorp.csv',encoding='utf-8')
+df.to_csv(r'farmaCorp.csv',encoding='utf-8')
