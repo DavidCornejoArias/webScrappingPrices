@@ -137,7 +137,7 @@ df['moneda']= ['Pesos chilenos' for i in range(len(listOfPrices))]
 df['Farmacia']= ['Farmaex' for i in range(len(listOfPrices))]
 df['oldPrices']= listOfOldPrices
 df['Country']= ['Chile' for i in range(len(listOfPrices))]
-df.to_csv(r'C:\Users\david\Documents\DNM\webscrapping\farmazEx.csv',encoding='utf-8')
+df.to_csv(r'farmazEx.csv',encoding='utf-8')
 
 
 
