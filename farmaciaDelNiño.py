@@ -138,6 +138,6 @@ df['oldPrices']= listOfOldPrices
 df['Country']= ['México' for i in range(len(listOfPrices))]
 df.columns
 df.drop_duplicates(subset ="productName",keep=False,inplace=True) 
-df.to_csv(r'C:\Users\david\Documents\DNM\webscrapping\farmaciaDelNino.csv',encoding='utf-8')
+df.to_csv(r'farmaciaDelNino.csv',encoding='utf-8')
 
  
