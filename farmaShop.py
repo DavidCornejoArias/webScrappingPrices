@@ -132,7 +132,7 @@ df['moneda']= ['Pesos uruguayos' for i in range(len(listOfPrices))]
 df['Farmacia']= ['Farmashop' for i in range(len(listOfPrices))]
 df['oldPrices']= listOfOldPrices
 df['Country']= ['Uruguay' for i in range(len(listOfPrices))]
-df.to_csv(r'C:\Users\david\Documents\DNM\webscrapping\FarmaShop2.csv',encoding='utf-8')
+df.to_csv(r'FarmaShop2.csv',encoding='utf-8')
     
             
 
