@@ -114,7 +114,7 @@ df['moneda']= ['Peso mexicano' for i in range(len(listOfPrices))]
 df['Farmacia']= ['BS Farma' for i in range(len(listOfPrices))]
 df['oldPrices']= listOfOldPrices
 df['Country']= ['México' for i in range(len(listOfPrices))]
-df.to_csv(r'C:\Users\david\Documents\DNM\webscrapping\bsFarma.csv',encoding='utf-8')
+df.to_csv(r'bsFarma.csv',encoding='utf-8')
 
 
 
